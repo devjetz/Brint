@@ -1,6 +1,8 @@
 # 🖨️ Brint - the future of print()
 Brint offers debugging features, that are both efficient and visually appealing. 
 
+This was higly inspired by the discord.py library, infact Brint was made just so i could have some prettier prints that fit well in with the discord.py library's printing.
+
 **What we offer:**
 * Time of print
 * Nice color theme
@@ -12,6 +14,7 @@ Brint offers debugging features, that are both efficient and visually appealing.
 **General Information**
 
 Every usage of the brint library will need to begin with ```Brint.``` like, ```Brint.success()```.
+Please do not 
 
 ---
 **Success Command**
