@@ -72,6 +72,6 @@ Now this is the tricky part, add a new line and now you want to add ```input(Bri
 
 If you got confused, heres how the code would look:
 ```
-Brint.input('NUMBER','Please enter in valid option.')
-chosenInput = int(input(Brint.inputt['t']))
+Brint.input('CHANNEL','Enter channel ID.')
+channelId = input(Brint.inputt['t'])
 ```
