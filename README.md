@@ -20,7 +20,7 @@ Please do not
 **Success Command**
 
 ```Success()``` is the status that will says that the code went smoothly.
-```
+```example.py
 Brint.success('Highlight', 'Message')
 ```
 This will print:
@@ -28,7 +28,7 @@ This will print:
 ![image](https://github.com/devjetz/Brint/assets/109991303/f86516eb-7be0-415f-aa9e-e9d488924d96)
 
 Example:
-```
+```example.py
 Brint.success('Get', 'Successfully fetched id.')
 ```
 ---
@@ -40,7 +40,7 @@ It's recommended to only use ```Error()``` for debugging, for example, ```Brint.
 ![image](https://github.com/devjetz/Brint/assets/109991303/f5a05b79-4075-4b9e-a2cc-8b6f3b2da984)
 
 Now to use this in code you can do something like this:
-```
+```example.py
 if response.status_code == 200:
     Brint.success(name,'Message sent successfully.')
 else:
